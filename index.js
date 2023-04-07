@@ -4,7 +4,7 @@ require('dotenv').config()
 
 const PORT = process.env.PORT || 3000
 
-app.get('/',(req,res)=>{
+app.get('/api/data',(req,res)=>{
 
     const data = {title : "project" , description: "project description"}
 
