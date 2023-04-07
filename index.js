@@ -8,7 +8,7 @@ app.get('/api/data',(req,res)=>{
 
     const data = {title : "project" , description: "project description"}
 
-    res.send(data)
+    res.json(data)
 })
 
 app.listen(PORT,()=>{
